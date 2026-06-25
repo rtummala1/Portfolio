@@ -816,6 +816,21 @@ h3 {
   margin: 18px 0 0;
 }
 
+.performance-review-image {
+  width: 100%;
+  margin-top: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  opacity: 0.95;
+  transition: opacity 160ms ease, transform 160ms ease, border-color 160ms ease;
+}
+
+.performance-review-image:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+  border-color: var(--line-strong);
+}
+
 .case-card ul {
   display: grid;
   gap: 10px;
